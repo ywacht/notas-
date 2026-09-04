@@ -1,0 +1,615 @@
+/* Easy Git plugin styles */
+
+.easy-git-status-bar {
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.easy-git-status-bar.is-hidden {
+  display: none;
+}
+.easy-git-fullwidth-input {
+  width: 100%;
+}
+.easy-git-status-bar.is-syncing {
+  color: #7c3aed;
+}
+.easy-git-status-bar.is-error {
+  color: var(--text-error);
+}
+.easy-git-status-bar:hover {
+  color: var(--text-normal);
+}
+
+
+.easy-git-mapping-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background-color: var(--background-secondary);
+}
+
+.easy-git-mapping-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.easy-git-mapping-name {
+  font-weight: 600;
+  color: var(--text-normal);
+  margin-bottom: 0.15rem;
+}
+
+.easy-git-mapping-summary {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.easy-git-mapping-status {
+  font-size: 0.8em;
+  color: var(--text-faint);
+  margin-top: 0.15rem;
+}
+
+.easy-git-mapping-status.is-error {
+  color: var(--text-error);
+}
+
+.easy-git-mapping-status.is-syncing {
+  color: var(--text-accent);
+}
+
+.easy-git-mapping-status.is-paused {
+  color: var(--text-faint);
+}
+
+/* Paused mapping: dim everything except the toggle (which must stay
+ * obviously interactive so the user can un-pause). */
+.easy-git-mapping-row.is-paused .easy-git-mapping-info,
+.easy-git-mapping-row.is-paused .easy-git-direction-icon {
+  opacity: 0.55;
+}
+
+.easy-git-mapping-warning {
+  margin-top: 0.3rem;
+  font-size: 0.85em;
+  color: var(--text-warning, #d97706);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.easy-git-mapping-warning .easy-git-warning-icon {
+  flex-shrink: 0;
+}
+
+.easy-git-mapping-actions {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.easy-git-direction-icon {
+  font-size: 1.1em;
+  margin-right: 0.25rem;
+  color: var(--text-muted);
+}
+
+.easy-git-add-button {
+  margin-top: 0.5rem;
+}
+
+.easy-git-conflict-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.easy-git-conflict-row {
+  padding: 0.5rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: var(--background-secondary);
+}
+
+.easy-git-conflict-path {
+  font-family: var(--font-monospace);
+  font-weight: 600;
+  color: var(--text-normal);
+  word-break: break-all;
+}
+
+.easy-git-conflict-kind {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  margin: 0.15rem 0 0.5rem;
+}
+
+.easy-git-conflict-choices {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.easy-git-conflict-choice {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.easy-git-device-code {
+  font-family: var(--font-monospace);
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  user-select: all;
+}
+
+.easy-git-device-status {
+  text-align: center;
+  color: var(--text-muted);
+  margin-top: 1rem;
+}
+
+.easy-git-modal-form .setting-item {
+  border-top: none;
+  padding: 0.5rem 0;
+}
+
+.easy-git-section-header {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.easy-git-section-header h3 {
+  margin: 0.25rem 0 0;
+  font-size: 1.05em;
+}
+
+.easy-git-section-sub {
+  margin: 0.15rem 0 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.easy-git-destinations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.easy-git-destination-card {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background-color: var(--background-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.easy-git-destination-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.easy-git-destination-label {
+  width: 6.5rem;
+  font-size: 0.85em;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.easy-git-destination-row input[type="text"] {
+  flex: 1;
+  padding: 0.25rem 0.4rem;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+}
+
+.easy-git-destination-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.15rem;
+}
+
+.easy-git-sync-log .easy-git-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 0.75rem;
+}
+
+.easy-git-log-row {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background-color: var(--background-secondary);
+}
+
+.easy-git-log-row.is-error {
+  border-left: 3px solid var(--text-error);
+}
+
+.easy-git-log-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.easy-git-log-status {
+  font-weight: 700;
+  font-size: 1.1em;
+  width: 1.25rem;
+  flex-shrink: 0;
+  color: var(--text-success, #16a34a);
+}
+
+.easy-git-log-row.is-error .easy-git-log-status {
+  color: var(--text-error);
+}
+
+.easy-git-log-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.easy-git-log-title {
+  font-weight: 600;
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.easy-git-log-sub {
+  font-size: 0.82em;
+  color: var(--text-muted);
+  margin-top: 0.1rem;
+}
+
+.easy-git-log-summary {
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.easy-git-log-error {
+  margin-top: 0.4rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--background-primary);
+  border: 1px solid var(--text-error);
+  border-radius: 4px;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  color: var(--text-error);
+  word-break: break-all;
+}
+
+.easy-git-log-files {
+  margin-top: 0.4rem;
+  font-size: 0.85em;
+}
+
+.easy-git-log-files-label {
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.easy-git-log-files ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.easy-git-log-files li {
+  font-family: var(--font-monospace);
+  color: var(--text-normal);
+}
+
+.easy-git-log-files-more {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.easy-git-log-conflicts {
+  margin-top: 0.4rem;
+  font-size: 0.85em;
+  color: var(--text-accent);
+}
+
+.easy-git-picker-button {
+  min-width: 12rem;
+  text-align: left;
+}
+
+.easy-git-picker-button .easy-git-picker-placeholder {
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+/* Foldable settings sections (<details> / <summary>). */
+/* Foldable section: one card per section, one background colour, header
+ * is just a clickable strip at the top. No card-within-card layering. */
+.easy-git-settings .easy-git-section {
+  margin: 0.55rem 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background-color: var(--background-primary);
+  overflow: hidden;
+}
+
+.easy-git-settings .easy-git-section > .easy-git-section-summary {
+  padding: 0.7rem 0.95rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 600;
+  font-size: 0.98em;
+  color: var(--text-normal);
+  user-select: none;
+  background-color: var(--background-secondary);
+  transition: background-color 0.1s ease;
+}
+
+.easy-git-settings .easy-git-section > .easy-git-section-summary:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Hide the browser's default disclosure marker in every engine. */
+.easy-git-settings .easy-git-section > .easy-git-section-summary::-webkit-details-marker,
+.easy-git-settings .easy-git-section > .easy-git-section-summary::marker {
+  display: none;
+  content: "";
+}
+
+.easy-git-settings .easy-git-section[open] > .easy-git-section-summary {
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Fixed-width chevron box prevents glyph-width drift when it rotates. */
+.easy-git-settings .easy-git-section .easy-git-section-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.9em;
+  height: 0.9em;
+  color: var(--text-muted);
+  font-size: 0.8em;
+  line-height: 1;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+
+.easy-git-settings .easy-git-section[open] .easy-git-section-chevron {
+  transform: rotate(90deg);
+}
+
+.easy-git-settings .easy-git-section .easy-git-section-title {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.easy-git-settings .easy-git-section .easy-git-section-body {
+  padding: 0.2rem 0.95rem 0.5rem;
+  /* No own background — inherits the section's primary so the body and
+   * the card edge are the same colour with no inset rectangle. */
+}
+
+/* Don't add our own row borders — Obsidian's .setting-item already draws
+ * its own top border. We just clean up the first child so the very first
+ * row doesn't double up against the summary's bottom border. */
+.easy-git-settings .easy-git-section-body > .setting-item:first-child {
+  border-top: none;
+}
+
+/* Flat (non-foldable) section card — same shell as the collapsibles but
+ * the header is a static label, not an interactive summary. */
+.easy-git-settings .easy-git-section-flat > .easy-git-section-summary {
+  cursor: default;
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.easy-git-settings .easy-git-section-flat > .easy-git-section-summary:hover {
+  background-color: var(--background-secondary);
+}
+
+/* Inline picker button: smaller, slotted next to a text input so it
+ * doesn't overpower the field. */
+.easy-git-settings .easy-git-picker-inline,
+.easy-git-destination-row .easy-git-picker-inline {
+  flex-shrink: 0;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.85em;
+}
+
+/* Diagnose modal — live view of what the engine sees for one destination. */
+.easy-git-diagnose .easy-git-diag-section {
+  margin: 1rem 0;
+}
+
+.easy-git-diagnose .easy-git-diag-section h3 {
+  font-size: 1em;
+  margin: 0.5rem 0 0.3rem;
+}
+
+.easy-git-diagnose .easy-git-diag-note {
+  margin: 0.3rem 0;
+  padding: 0.4rem 0.6rem;
+  background: var(--background-secondary);
+  border-left: 3px solid var(--text-accent);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.easy-git-diagnose .easy-git-diag-files {
+  max-height: 16rem;
+  overflow-y: auto;
+  margin: 0.3rem 0;
+  padding: 0.4rem 0.6rem 0.4rem 1.8rem;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  list-style-type: disc;
+}
+
+.easy-git-diagnose .easy-git-diag-files li {
+  color: var(--text-normal);
+  margin: 0.05rem 0;
+}
+
+.easy-git-diagnose .easy-git-diag-tag {
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.easy-git-diagnose .easy-git-diag-positive h3,
+.easy-git-diagnose p.easy-git-diag-positive {
+  color: var(--text-success, #16a34a);
+}
+
+.easy-git-diagnose .easy-git-diag-error {
+  padding: 0.6rem 0.8rem;
+  background: var(--background-secondary);
+  border-left: 3px solid var(--text-error);
+  border-radius: 4px;
+}
+
+.easy-git-diagnose .easy-git-diag-error pre {
+  background: var(--background-primary);
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.85em;
+}
+
+.easy-git-diagnose .easy-git-diag-footer {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.easy-git-diagnose .easy-git-diag-kv {
+  margin: 0.3rem 0 0.6rem;
+  padding-left: 1.2rem;
+  list-style-type: none;
+}
+
+.easy-git-diagnose .easy-git-diag-kv li {
+  margin: 0.1rem 0;
+  font-size: 0.9em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+}
+
+.easy-git-diagnose .easy-git-diag-kv-key {
+  color: var(--text-muted);
+  font-weight: 500;
+  min-width: 11rem;
+}
+
+.easy-git-diagnose .easy-git-diag-kv-val {
+  color: var(--text-normal);
+  word-break: break-word;
+  font-family: var(--font-monospace);
+  font-size: 0.95em;
+}
+
+/* Prune local-only files modal */
+.easy-git-prune-sub {
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.easy-git-prune-remotes {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin: 0 0 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.easy-git-prune-warning {
+  color: var(--text-warning);
+  font-weight: 600;
+}
+
+.easy-git-prune-error {
+  color: var(--text-error);
+}
+
+.easy-git-prune-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.easy-git-prune-row {
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  margin-bottom: 0.35rem;
+  background-color: var(--background-secondary);
+}
+
+.easy-git-prune-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.easy-git-prune-path {
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+  word-break: break-all;
+}
+
+.easy-git-prune-hint {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  margin: 0.15rem 0 0 1.6rem;
+  word-break: break-all;
+}
+
+.easy-git-prune-row.is-unique .easy-git-prune-hint {
+  color: var(--text-warning);
+}

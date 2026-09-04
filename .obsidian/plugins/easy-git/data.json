@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "method": "oauth",
+    "token": "",
+    "provider": "github",
+    "scopes": [
+      "repo"
+    ],
+    "username": "ywacht"
+  },
+  "mappings": [
+    {
+      "id": "a8f0366d-7f97-4799-98ff-b014ff912d0e",
+      "name": "Notas-Vault",
+      "vaultFolder": "",
+      "direction": "both",
+      "autoMode": {
+        "kind": "off"
+      },
+      "rewriteWikilinks": true,
+      "destinations": [
+        {
+          "id": "fd5a565e-6c22-4ca3-aea4-0384c44815db",
+          "repoOwner": "ywacht",
+          "repoName": "notas-",
+          "branch": "main",
+          "remoteFolder": "",
+          "lastSyncState": {
+            "baseCommitSha": "4f4524dfcd81aa3bb05ffc1695e330a79bf20489",
+            "baseTreeSha": "7143876191a8b86f97b6607d92aee383b607713b",
+            "files": {
+              "Fundamentos de etica en tecnologias de la informacion clase 2.md": {
+                "sha": "cab9110356ffbc844643520112d8cf484ec7ef68",
+                "size": 3106,
+                "mtime": 1788370986555
+              },
+              "fundamentos de etica en tecnologias de la informacion clase 1.md": {
+                "sha": "1c44a5a01df691e0e23276f882f29571632256e0",
+                "size": 3666,
+                "mtime": 1788286748957
+              },
+              "inteligencia artificial fundamentos clase 1.md": {
+                "sha": "c2e1d2d75d9de1e77d37a8b30b9180ae3fcdb7e0",
+                "size": 294,
+                "mtime": 1788290902467
+              },
+              "inteligencia artificial fundamentos clase 2.md": {
+                "sha": "6e225e80165f4ffddfbbe2110669e439da1db1ea",
+                "size": 767,
+                "mtime": 1788381483468
+              },
+              "inteligencia artificial fundamentos clase 3.md": {
+                "sha": "25503c457b6f0784721661fcf71b61b4de20e280",
+                "size": 6630,
+                "mtime": 1788465885598
+              },
+              "mineria de textos clase 1.md": {
+                "sha": "400801416e7d32ff971edfc2551ba02f7c9a1c8a",
+                "size": 98,
+                "mtime": 1788361917220
+              },
+              "seguridad infomatica clase 1.md": {
+                "sha": "61b68c01586d2a729bfff02ba77af1e0ab14f057",
+                "size": 864,
+                "mtime": 1788275752379
+              },
+              "test git.md": {
+                "sha": "dd84d8467b7c33b16ccdfbd5c6e874a4e13354d5",
+                "size": 7,
+                "mtime": 1788539620941
+              },
+              "h.txt": {
+                "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "size": 0,
+                "mtime": 1788485461492
+              }
+            }
+          },
+          "lastSyncAt": 1788540287223
+        }
+      ]
+    }
+  ],
+  "defaultCommitTemplate": "Sync from Obsidian ({mapping}): {datetime} — {added}+ {modified}~ {deleted}-",
+  "excludedPaths": [
+    ".trash/**",
+    ".git/**",
+    "node_modules/**",
+    ".easy-git-backup/**",
+    ".claude/**",
+    ".DS_Store",
+    "Thumbs.db",
+    "*.tmp",
+    "*.swp",
+    ".obsidian/**"
+  ],
+  "maxFileSizeBytes": 99614720,
+  "showNotifications": true,
+  "debugLogging": false,
+  "autoResolveByMtime": true,
+  "autoMergeText": true,
+  "backupRetentionDays": 46,
+  "syncLog": [
+    {
+      "timestamp": 1788540391825,
+      "mappingId": "a8f0366d-7f97-4799-98ff-b014ff912d0e",
+      "mappingName": "Notas-Vault",
+      "destinationId": "fd5a565e-6c22-4ca3-aea4-0384c44815db",
+      "destinationLabel": "ywacht/notas-:main//",
+      "trigger": "manual",
+      "ok": false,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "error": "Network error: net::ERR_NAME_NOT_RESOLVED",
+      "durationMs": 20022
+    },
+    {
+      "timestamp": 1788540287224,
+      "mappingId": "a8f0366d-7f97-4799-98ff-b014ff912d0e",
+      "mappingName": "Notas-Vault",
+      "destinationId": "fd5a565e-6c22-4ca3-aea4-0384c44815db",
+      "destinationLabel": "ywacht/notas-:main//",
+      "trigger": "command",
+      "ok": true,
+      "added": 0,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 0,
+      "changedPaths": [],
+      "durationMs": 722
+    },
+    {
+      "timestamp": 1788540270165,
+      "mappingId": "a8f0366d-7f97-4799-98ff-b014ff912d0e",
+      "mappingName": "Notas-Vault",
+      "destinationId": "fd5a565e-6c22-4ca3-aea4-0384c44815db",
+      "destinationLabel": "ywacht/notas-:main//",
+      "trigger": "manual",
+      "ok": true,
+      "added": 8,
+      "modified": 0,
+      "deleted": 0,
+      "conflicts": 0,
+      "filesTouched": 8,
+      "changedPaths": [
+        "Fundamentos de etica en tecnologias de la informacion clase 2.md",
+        "fundamentos de etica en tecnologias de la informacion clase 1.md",
+        "inteligencia artificial fundamentos clase 1.md",
+        "inteligencia artificial fundamentos clase 2.md",
+        "inteligencia artificial fundamentos clase 3.md",
+        "mineria de textos clase 1.md",
+        "seguridad infomatica clase 1.md",
+        "test git.md"
+      ],
+      "durationMs": 6982
+    }
+  ]
+}
