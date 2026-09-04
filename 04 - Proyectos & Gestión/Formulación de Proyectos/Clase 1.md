@@ -53,10 +53,18 @@ asignacion incorrectas de citas
 problemas con la pasarela de pagos 
 
 
+prpyecto A 
+- objetivos claros y definidos 
+- alcance documentado y acordado 
+- responsables asignados por area 
+- fechas y presupuestos establecidos 
 
-Puto Pablo 
+proyecto caotico 
+- mala organizacion y por ende poco eficaz 
 
 
+Conclusion 
+La gestion de proyectos permite convertir una idea de software en un proyecto viable , organizado y controlado  reduciendo riesgos y aumentando las posibilidades de cumplir con los objetivos establecidos.
 
 
 
