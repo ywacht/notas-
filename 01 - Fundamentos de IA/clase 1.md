@@ -8,4 +8,3 @@ ateceden de ia
  enfoques de ia 
  logica proporcisional 
  ramas de la ia 
-

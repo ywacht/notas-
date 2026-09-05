@@ -1,4 +1,4 @@
-la seguridad informtica es el diseno y implemnetasion y gestion etrategica 
+ seguridad informtica es el diseno y implemnetasion y gestion etrategica 
 de un  plan maestro para asegurar tres  pilares fundamnetales 
 integirdad 
 confiede

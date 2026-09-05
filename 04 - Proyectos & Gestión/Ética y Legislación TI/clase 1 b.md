@@ -1,4 +1,3 @@
-
 unidad 1 
 objetivo 
 el estudiante distuingira los conceptos de la etica en el ambito de las tecnologias de la informancion 
