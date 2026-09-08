@@ -30,3 +30,4 @@
 ### honestidad
 	los desarolladores deben de informar las capacidades limitaciones errores y riesgos del sistema sin ocultar informacion importante.
 
+
