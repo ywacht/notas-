@@ -27,12 +27,6 @@
 	los usuarios deben conocer de manera clara como funciona el software y que datos recopila o utiliza .
 
 
-### honester 
+### honestidad
 	los desarolladores deben de informar las capacidades limitaciones errores y riesgos del sistema sin ocultar informacion importante.
-
-###  Equidad y no discriminacion 
-	los sistemas deben disenarme evitando prjuicios o descriminacion hacia determinados grupos de personas , especialmente cuando utilizan algoritmos o inteligencia artificial .
-
-### Propiedad intelectual 
-	Se deben respetar los derechos de autor licensias patentes y demas derechos relacionalos con el codigo y los recursos utilisados .
 
