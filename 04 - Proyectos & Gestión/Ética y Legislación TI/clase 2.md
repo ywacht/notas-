@@ -30,7 +30,3 @@
 ### honestidad
 	los desarolladores deben de informar las capacidades limitaciones errores y riesgos del sistema sin ocultar informacion importante.
 
-### equidad y no descriminacion 
-los sistemas deben de disenarse 
-
-### propiedad intelectual 
