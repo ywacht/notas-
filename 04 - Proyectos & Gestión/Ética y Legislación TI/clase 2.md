@@ -10,20 +10,20 @@
 | **Justicia** | Evitar discriminación y procurar un trato equitativo. |
 | **Transparencia** | Informar de manera clara cómo funcionan los sistemas y cómo se utilizan los datos. |
 | **Accesibilidad** | Procurar que las tecnologías puedan ser utilizadas por diferentes personas, incluyendo aquellas con discapacidad. |
-## etica en el desarollo de software 
+## ética en el desarrollo de software 
 	la etica en el desarollo de software es el conjunto de principio y valores que orientan las desiciones de los profecionales durante el diseno , programacion  , implementacion y amtenimiento de sistemas informaticos . Su finalidad es garantisar que el software sea utilisado de manera responsables , segura justa y respetuosa con las  personas y lasociedades .
 
-## Elementos que determinan la etica en el dasarollo de software 
-### reponsabilidad personal 
+## Elementos que determinan la ética en el desarrollo de software 
+### responsabilidad personal 
 	el desarollador debe de asumir las consecuencias de sus decisiones y crear software  que funcione correctamente y no cause danos inesesarios .
 
-### Privacidad y proteccion de datos 
+### Privacidad y protección de datos 
 	se debe proteger la informacion personal de los usuarios y evitar su recopilacion , uson o dilvulgacion si autorisazion .
 
 ## seguridad 
 	El software debe con  medidas para prevenir acceso no autorisados , pedida de informacion , ataques y vulnerabilidades .
 
-### tranparencia 
+### transparencia 
 	los usuarios deben conocer de manera clara como funciona el software y que datos recopila o utiliza .
 
 
@@ -36,3 +36,8 @@
 ### Propiedad intelectual 
 	Se deben respetar los derechos de autor licensias patentes y demas derechos relacionalos con el codigo y los recursos utilisados .
 
+### Calidad de software
+	Es necesario desarrollar sistemas confiables eficientes , accesibles y adecuadas para el propósito para el que fueron creados.
+
+# Impacto Social
+	Antes de implementar un sistema se deben considerar sus posibles efectos sobre las personas organizaciones y sociedad.
