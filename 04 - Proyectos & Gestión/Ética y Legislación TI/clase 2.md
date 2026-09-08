@@ -10,3 +10,9 @@
 | **Justicia** | Evitar discriminación y procurar un trato equitativo. |
 | **Transparencia** | Informar de manera clara cómo funcionan los sistemas y cómo se utilizan los datos. |
 | **Accesibilidad** | Procurar que las tecnologías puedan ser utilizadas por diferentes personas, incluyendo aquellas con discapacidad. |
+## etica en el desarollo de software 
+la etica en el desarollo de software es el conjunto de principio y valores que orientan las desiciones de los profecionales durante el diseno , programacion  , implementacion y amtenimiento de sistemas informaticos . Su finalidad es garantisar que el software sea utilisado de manera responsables , segura justa y respetuosa con las  personas y lasociedades .
+
+## Elementos que determinan la etica en el dasaroloo de software 
+### reponsabilidad personal 
+el desarollador debe de asumir las consecuencias de sus decisiones y crear software  que funcione correctamente y no cause danos inesesarios .

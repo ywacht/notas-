@@ -47,7 +47,7 @@ Efecto del sobreajuste en inferencia:: Rendimiento casi perfecto en entrenamient
 ¿Qué es el subajuste (Underfitting)?:: Incapacidad del modelo para capturar la estructura subyacente y patrones de los datos.
 <!--SR:!2026-09-17,10,270-->
 Efecto del subajuste en entrenamiento y prueba:: Altas tasas de error en ambas fases (entrenamiento y prueba).
-<!--SR:!2026-09-08,4,270-->
+<!--SR:!2026-09-10,2,250-->
 
 ---
 
