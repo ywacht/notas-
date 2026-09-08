@@ -1,12 +1,12 @@
-. Responsabilidad personal
+### 1. Responsabilidad personal
 
-1. Un desarrollador detecta un error en su programa y lo corrige antes de entregarlo al usuario.
+2. Un desarrollador detecta un error en su programa y lo corrige antes de entregarlo al usuario.
     
-2. Si una aplicación falla y provoca pérdida de información, el desarrollador debe reconocer el problema y buscar una solución.
+3. Si una aplicación falla y provoca pérdida de información, el desarrollador debe reconocer el problema y buscar una solución.
     
-3. Antes de publicar un sistema, el desarrollador realiza pruebas para evitar que tenga errores que puedan causar daños.
+4. Antes de publicar un sistema, el desarrollador realiza pruebas para evitar que tenga errores que puedan causar daños.
     
-4. Un programador no agrega funciones peligrosas o innecesarias solo por terminar más rápido el proyecto.
+5. Un programador no agrega funciones peligrosas o innecesarias solo por terminar más rápido el proyecto.
     
 
 ### 2. Privacidad y protección de datos
