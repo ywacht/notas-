@@ -27,3 +27,7 @@ caracteristicas tecnicas :
 	Redes neuronales artificiales :  uso de multiples capss (apas ocultas ) que permiten la abstraccion  progresiva de la informacion .
 	Extraccion jerarquica : Capacidad para decubrirr automaticamente representaciones complejas .
 	Datos Complejos : Altamente eficas en el procesamiento de datros no estrocturado .
+## procesamiento de lenjuages natural 
+	diciplina en la interceccion de las ciencias computacionales ,
+	la inteligencia artificial y la luinguistica . Proporciona a las maquinas la capacidad computacional para comprender interpreta analizr y generar el lenguaje de texto tanto en la forma de texto como en el habla .
+	
