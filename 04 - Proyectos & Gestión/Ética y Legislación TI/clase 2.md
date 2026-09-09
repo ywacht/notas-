@@ -18,7 +18,7 @@
 	el desarollador debe de asumir las consecuencias de sus decisiones y crear software  que funcione correctamente y no cause danos inesesarios .
 
 ### Privacidad y protección de datos 
-	se debe proteger la informacion personal de los usuarios y evitar su recopilacion , uson o dilvulgacion si autorisazion .
+	se debe prot[[ETICA EN EL USO DE LAS TICS actividad]]eger la informacion personal de los usuarios y evitar su recopilacion , uson o dilvulgacion si autorisazion .
 
 ## seguridad 
 	El software debe con  medidas para prevenir acceso no autorisados , pedida de informacion , ataques y vulnerabilidades .
@@ -39,41 +39,5 @@
 ### Calidad de software
 	Es necesario desarrollar sistemas confiables eficientes , accesibles y adecuadas para el propósito para el que fueron creados.
 
-### Impacto Social
+# Impacto Social
 	Antes de implementar un sistema se deben considerar sus posibles efectos sobre las personas organizaciones y sociedad.
-
-
-# Cumplimiento de leyes y normas
-
-el desdarrollo debe respetar las leyes reglamentos , estandares y politas aplicables al tipo de software y a la informacion que maneja
-
-### Confidencialidad 
-
-La información obtenida durante el desarrollo o mantenimiento de un sistema debe mantenerse protegida y no utilizarse indebidamente .
-
-## actividad identifica el elemento ético  
-
-
-
-1. Una aplicación solicita información personal que realmente no necesita.
-    → Privacidad
-
-
-2. Un programador utiliza código de otra persona sin respetar su licencia.
-    → Propiedad intelectual
-
-
-3. Una empresa oculta a sus usuarios que una aplicación recopila sus datos.
-    → Transparencia
-
-
-4. Un sistema de contratación rechaza automáticamente a personas de determinado grupo.
-   → Equidad y no discriminación
-
-
-5. Un desarrollador detecta una vulnerabilidad y la informa antes de publicar el sistema.
-   → Seguridad
-
-
-6. Una página web no puede ser utilizada correctamente por personas con discapacidad.
-   → Accesibilidad
