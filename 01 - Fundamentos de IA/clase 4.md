@@ -65,3 +65,9 @@ caracteristicas tecnicas :
 
 #### sistemas de control :
 	utilisado en la indrusti para automatisar procesos que requieran un estado intermedio 
+ Visión por Computadora (Computer Vision)
+​Campo científico que capacita a los sistemas informáticos para derivar información significativa de imágenes digitales, secuencias de video y otras entradas visuales, permitiendo la toma de acciones o recomendaciones basadas en dicha información.
+​Áreas clave:
+​Detección de Objetos: Identificación y localización espacial de múltiples entidades mediante cajas delimitadoras.
+​Segmentación de Imágenes: Clasificación a nivel de píxel para separar elementos del fondo.
+​Reconocimiento Facial: Mapeo de vectores biométricos para autenticación e identificación humana.
