@@ -30,4 +30,19 @@ caracteristicas tecnicas :
 ## procesamiento de lenjuages natural 
 	diciplina en la interceccion de las ciencias computacionales ,
 	la inteligencia artificial y la luinguistica . Proporciona a las maquinas la capacidad computacional para comprender interpreta analizr y generar el lenguaje de texto tanto en la forma de texto como en el habla .
-	
+	Técnica 01] Análisis de Sentimientos
+01 Clasificación de la polaridad emocional
+02 en texto.
+[Técnica 02] Traducción Automática
+01 Mapeo semántico y sintáctico entre
+02 idiomas.
+[Técnica 03] Modelos de Lenguaje de Gran Escala (LLMs)
+01 Redes neuronales masivas para la
+03 generación de texto contextual y razonamiento probabilístico.
+
+Visión por Computadora (Computer Vision)
+Campo científico que capacita a los sistemas informáticos para derivar información significativa de imágenes digitales, secuencias de video y otras entradas visuales, permitiendo la toma de acciones o recomendaciones basadas en dicha información.
+Áreas clave:
+Detección de Objetos: Identificación y localización espacial de múltiples entidades mediante cajas delimitadoras.
+Segmentación de Imágenes: Clasificación a nivel de píxel para separar elementos del fondo.
+Reconocimiento Facial: Mapeo de vectores biométricos para autenticación e identificación humana.
