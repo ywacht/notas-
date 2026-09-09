@@ -65,23 +65,9 @@ caracteristicas tecnicas :
 
 #### sistemas de control :
 	utilisado en la indrusti para automatisar procesos que requieran un estado intermedio 
- Visión por Computadora (Computer Vision)
+## Visión por Computadora (Computer Vision)
 ​Campo científico que capacita a los sistemas informáticos para derivar información significativa de imágenes digitales, secuencias de video y otras entradas visuales, permitiendo la toma de acciones o recomendaciones basadas en dicha información.
 ​Áreas clave:
 ​Detección de Objetos: Identificación y localización espacial de múltiples entidades mediante cajas delimitadoras.
 ​Segmentación de Imágenes: Clasificación a nivel de píxel para separar elementos del fondo.
 ​Reconocimiento Facial: Mapeo de vectores biométricos para autenticación e identificación humana.
-Aquí tienes el texto contenido en la diapositiva:
-Integración de Ramas en la Industria
-Los ecosistemas industriales reales rara vez operan bajo una única disciplina.
-La robustez técnica exige la integración híbrida de múltiples paradigmas.
-Diagrama de flujo:
- * [Nodo de Entrada]
-   Sensores Físicos / Cámaras
- * [Nodo de Procesamiento 1]
-   Visión por Computadora: Detección de anomalías en tiempo real.
- * [Nodo de Decisión 2]
-   Lógica Difusa: Inferencia basada en grados de severidad de la anomalía.
- * [Nodo de Salida]
-   Sistema de Control Físico (Actuadores)
- * 
