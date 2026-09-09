@@ -10,5 +10,18 @@ INTRUCCIONES : Lee cada situacion y escribe que elementos etico esta relacionado
 
 
 # CASOS ETICOS 
-
-
+Actividad 2. Casos éticos
+Objetivo: Analizar problemas éticos que pueden presentarse durante el desarrollo de software.
+Instrucciones: Formen equipos y analicen el siguiente caso:
+Una empresa desarrolla una aplicación gratuita para celulares. Para obtener ganancias, decide recopilar la ubicación de los usuarios durante todo el día, aunque esta información no es necesaria para utilizar la aplicación. La empresa tampoco informa claramente a los usuarios sobre esta práctica.
+Respondan:
+¿Cuál es el problema ético?
+No informar claramente a los usuarios 
+¿Qué elementos de la ética del software están involucrados?
+Privacidad y honestidad
+¿A quién puede afectar esta situación?
+A los usuarios 
+¿Qué debería hacer el desarrollador?
+Informar claramente
+¿Qué solución propondría el equipo?
+Lanzar una aplicación que permita usar sin estos datos pero con menos herramientas y informar claramente que datos se recolectan 
