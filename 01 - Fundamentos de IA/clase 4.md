@@ -9,7 +9,7 @@
 5. Prosesamiento de lenguaje natural (NPL)
 6. Sistema Difuso 
 
-##  Aprendisaje automatico (machine learning)
+##  Aprendisaje automatico (machine learning)****
 ### Definicion Formal 
 	rama de la inteligecia artificial centrada en el desarollo 
 	de algoritmos y modelos estadisticos que permiten aprender alas computadoras patrones y algoritmoa y realisar predicciones sin requerir ser programadas   explisitamente por cada regla .
