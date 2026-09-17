@@ -49,3 +49,11 @@
 	Mitigación de vulnerabilidades web (OWASP).
 	Datos
 	Cifrado y gestión de accesos.
+
+## tipo 3: Diseño del Entorno físico 
+1. Control de Acceso
+Aseguramiento de instalaciones críticas o Data Centers mediante biometría o esclusas.
+2. Factores Ambientales
+Protección contra incendios, variaciones de temperatura y prevención de sabotaje físico.
+3. Mantenimiento
+Supervisión preventiva y rigurosa de toda la infraestructura de hardware o dispositivos físicos.
