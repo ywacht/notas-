@@ -24,7 +24,7 @@
 #  Normativas y estandares internacionales 
 	ISO 26000 – Responsabilidad Social, señalando que proporciona orientación para que las organizaciones integren principios de responsabilidad social en sus actividades y aclarando que no es una norma certificable como la ISO 9001.
 	 
-	 Las normas que mencionas corresponden a estándares internacionales de la ISO (International Organization for Standardization) y la IEC (International Electrotechnical Commission):
+		Las normas que mencionas corresponden a estándares internacionales de la  ISO (International Organization for Standardization) y la IEC (International Electrotechnical Commission):
 	1. ISO 14001 — Sistema de Gestión Ambiental (SGA)
 	 * ¿Qué es?: Es el estándar internacional certificable más reconocido para la gestión ambiental en todo tipo de organizaciones.
 	 * Objetivo principal: Ayudar a las empresas a identificar, priorizar y gestionar sus riesgos e impactos ambientales derivados de sus actividades y servicios (por ejemplo, reducir la huella de carbono, optimizar el uso de recursos, gestionar residuos tecnológicos o cumplir con normativas legales).
@@ -38,5 +38,8 @@
 	   * Disponibilidad: Asegurar que los usuarios autorizados tengan acceso a los datos y sistemas cuando los necesiten.
 	   * Incluye controles sobre seguridad en el desarrollo de software, gestión de accesos, cifrado, copias de seguridad y respuesta ante incidentes cibernéticos.
 	
-	
-	
+	Aquí tienes el texto extraído de la imagen:
+	Convenio de Basilea
+	Es un acuerdo internacional que busca controlar los movimientos transfronterizos de residuos peligrosos y su eliminación, contribuyendo a una gestión ambientalmente adecuada de los residuos.
+	Objetivos de Desarrollo Sostenible (ODS) de la ONU
+	Los ODS incluyen metas relacionadas con consumo responsable, innovación, energía, trabajo digno, reducción de desigualdad y acción climática, temas que pueden abordarse mediante el uso responsable de las TIC.
