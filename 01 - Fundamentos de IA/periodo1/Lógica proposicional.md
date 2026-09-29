@@ -34,7 +34,7 @@
 	condición de verdad coincidencia de valores  
 	ejemplo: el bucle se ejecuta solo si la variable es mayor a 0 
 
-![](../Pasted%20image%2020260914190121.png)
+![](../../Pasted%20image%2020260914190121.png)
 ### Jerarquía de evaluación
 	1 parentesis ()
 	2 Negaciones 
