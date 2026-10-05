@@ -57,3 +57,4 @@ Evaluación e Interpretación de Resultados (Evaluation & Visualization)
         Visualización de Datos: Creación de nubes de palabras, matrices de confusión, grafos de conocimiento o tableros interactivos.
 
         Puesta en Producción / Acción: Integración de los hallazgos en sistemas de negocio o informes finales.
+        
