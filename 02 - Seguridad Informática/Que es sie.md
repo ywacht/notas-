@@ -55,3 +55,7 @@ pacman -Ss <nombre>                  # buscar una herramienta concreta
 	Si lo que quieres es practicar con un SIEM, lo más práctico es instalar **Wazuh** o **ELK** aparte (en una VM o con Docker) y usar las herramientas de BlackArch para generar ataques de prueba, como fuerza bruta con hydra o escaneos con nmap. Así ves cómo el SIEM detecta lo que tú mismo provocas.
 	
 	
+### Amenaza 1 : inyeccion SQL
+
+	una vulnerabilidad critica donde un atacante interfiere con las consultas que una app realiza a su base de datos . permite la manipulación o extracción no autorizada de datos confidenciales al insertar comandos maliciosos dentro de campos de entrada de texto que la app asume como seguros.
+
