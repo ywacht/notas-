@@ -59,3 +59,8 @@ pacman -Ss <nombre>                  # buscar una herramienta concreta
 
 	una vulnerabilidad critica donde un atacante interfiere con las consultas que una app realiza a su base de datos . permite la manipulación o extracción no autorizada de datos confidenciales al insertar comandos maliciosos dentro de campos de entrada de texto que la app asume como seguros.
 
+### Vulnerando la autenticación
+	paso 1 : el atacante ingresa la cadena or "1" = 1 en el campo contraseña  
+	paso 2 : El servidor web procesa la entrada sin validar ni sonetizarla 
+	paso 3: La base de datos evalua la condicion como verdadera para todos los usarios
+	Impacto: el sistema concede acceso administrativo al atacante sin requerir una credencial valida 
