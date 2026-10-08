@@ -54,44 +54,20 @@ pacman -Ss <nombre>                  # buscar una herramienta concreta
 
 	Si lo que quieres es practicar con un SIEM, lo más práctico es instalar **Wazuh** o **ELK** aparte (en una VM o con Docker) y usar las herramientas de BlackArch para generar ataques de prueba, como fuerza bruta con hydra o escaneos con nmap. Así ves cómo el SIEM detecta lo que tú mismo provocas.
 	
-### Atributos del Sistema
+	
+### Amenaza 1 : inyeccion SQL
 
-(Es la descripción de las cuatro funciones clave de un SIEM, justo lo que vimos antes.)
+	una vulnerabilidad critica donde un atacante interfiere con las consultas que una app realiza a su base de datos . permite la manipulación o extracción no autorizada de datos confidenciales al insertar comandos maliciosos dentro de campos de entrada de texto que la app asume como seguros.
 
-**Agregación**  
-Recolección masiva y centralizada de datos y bitácoras (syslog, SNMP).
+### Vulnerando la autenticación
+	paso 1 : el atacante ingresa la cadena or "1" = 1 en el campo contraseña  
+	paso 2 : El servidor web procesa la entrada sin validar ni sonetizarla 
+	paso 3: La base de datos evalua la condicion como verdadera para todos los usarios
+	Impacto: el sistema concede acceso administrativo al atacante sin requerir una credencial valida 
 
-**Correlación**  
-Conexión analítica de eventos aparentemente aislados para detectar patrones maliciosos.
 
-**Alertamiento**  
-Notificaciones automáticas y en tiempo real basadas en reglas de seguridad predefinidas.
+### Amenaza 2 : Cross site Scripting 
 
-**Retención**  
-Almacenamiento inmutable a largo plazo para auditorías de cumplimiento y análisis forense.
+	Conocido como xss es un ataque de inyeccion donde scripts maliciosos se insertan en sitios web benignos y de confianza . a diferencoa de SQLi , el objetivo aqui no es el servidor , si no el navegador del usuario final explotando la confianza que el usuario tiene en el sitio .
 
-**Mis comentarios**
 
-- **Agregación:** _syslog_ es el protocolo estándar para enviar logs desde servidores, firewalls y equipos de red. _SNMP_ se usa sobre todo para monitorear dispositivos de red (switches, routers), y puede mandar _traps_ (avisos de eventos). Por eso un SIEM necesita **normalizar**: cada fuente habla en un formato distinto.
-- **Correlación:** es lo que distingue a un SIEM de un simple almacén de logs. Un solo login fallido no dice nada, pero 50 fallos seguidos y luego un acceso exitoso desde otro país sí es un patrón.
-- **Alertamiento:** "reglas predefinidas" significa que la calidad de las alertas depende de qué tan bien estén afinadas las reglas. Reglas malas generan muchos **falsos positivos** y el analista termina ignorando las alertas (_alert fatigue_).
-- **Retención:** "inmutable" quiere decir que los logs no se pueden alterar ni borrar, lo cual es clave porque un atacante suele intentar borrar sus huellas. Los periodos de retención suelen venir de normativas como PCI-DSS o ISO 27001.
-
-### Diapositiva 2: ¿Qué son las Amenazas?
-
-_(Título superior: "Premium Tactical Briefing")_
-
-"Una amenaza cibernética es cualquier evento potencial, ya sea malicioso o accidental, que busca explotar una vulnerabilidad (en sistemas, redes o factor humano) para comprometer la confidencialidad, integridad o disponibilidad de los activos de la organización."
-
-El diagrama muestra flechas rojas (amenazas) apuntando hacia un círculo central azul "Activos de la organización", con la etiqueta "Vulnerabilidad" señalando el punto por donde entran.
-
-**Mis comentarios**
-
-- La definición menciona la **tríada CIA**: Confidencialidad, Integridad y Disponibilidad. Es la base de casi todo en ciberseguridad y es muy probable que la pregunten en examen.
-- Distingue bien tres conceptos que suelen confundirse:
-    - **Activo:** lo que se quiere proteger (datos, servidores, personas).
-    - **Vulnerabilidad:** una debilidad (software sin parchar, contraseña débil, un empleado sin capacitación).
-    - **Amenaza:** lo que puede explotar esa debilidad.
-    - Cuando una amenaza explota una vulnerabilidad se materializa el **riesgo**.
-- La diapositiva dice "malicioso o accidental": una amenaza no siempre es un hacker. Un empleado que borra una base de datos por error o un desastre natural también cuentan.
-- En el diagrama, las flechas rojas no cruzan el círculo punteado en todos lados, solo donde hay vulnerabilidad. Es una forma visual de entender que sin vulnerabilidad, la amenaza no logra comprometer el activo.
