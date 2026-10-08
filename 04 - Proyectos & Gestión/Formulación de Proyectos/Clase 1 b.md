@@ -73,3 +73,25 @@ La gestion de proyectos permite convertir una idea de software en un proyecto vi
 
 
 
+Las instrucciones de la primera imagen piden:
+ * Un encabezado (Headline) usando un imperativo.
+ * 2 a 3 frases imperativas (Imperative statements) que persuadan al cliente a actuar.
+Dado que tu cartel es sobre un torneo de Super Smash Bros. Ultimate (Factor X), aquí tienes un par de opciones en inglés para que encajen perfectamente con tu diseño:
+Opción 1 (Directa y con impacto para gamers)
+ * Headline (Encabezado imperativo):
+   > Watch the Ultimate Showdown!
+   > 
+ * Imperative Statements (2-3 frases de llamado a la acción):
+   >  * Get your tickets now and support your favorite player!
+   >  * Don't miss this epic clash of legends!
+   >  * Join the live stream today!
+   > 
+Opción 2 (Enfocada en el torneo y la experiencia)
+ * Headline (Encabezado imperativo):
+   > Experience the Clash of Champions!
+   > 
+ * Imperative Statements (2-3 frases de llamado a la acción):
+   >  * Witness Sparg0 vs MkLeo live!
+   >  * Grab your seat before it's too late!
+   >  * Claim your spot in the arena!
+   > 
