@@ -8,3 +8,11 @@ Esta  normativa se divide en dos ámbitos principales :
 
 	Nacional : que corresponde a las leyes de cada pais:
 	Internacional : que comprende tratados y acuerdos de cooperación entre estados para       combatir la ciberdelincuencia 
+
+## normativa nacional en mexico 
+	enmexico los delitos informaticos se abordan mediante diversas dispocisiones legales .
+	entre las mas importantes se encuentran las suiguientes 
+	1 constitucion politica de los estados unidos mexicanos 
+	establece las bases para proteger los derechos fundamentales relacionados con el entorno digital , como privacidad , la proteccion de datos personales , la inmovilidad de las comuncativas privadas y el acceso a lasx tecnologias de la informacion , destaca los articulos 6 7 y 16 .
+### 2.codigo penal  fedaral 
+sus articulos 7 11 
