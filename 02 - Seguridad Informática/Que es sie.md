@@ -71,3 +71,19 @@ pacman -Ss <nombre>                  # buscar una herramienta concreta
 	Conocido como xss es un ataque de inyeccion donde scripts maliciosos se insertan en sitios web benignos y de confianza . a diferencoa de SQLi , el objetivo aqui no es el servidor , si no el navegador del usuario final explotando la confianza que el usuario tiene en el sitio .
 
 
+## Robo de Sesion del cliente 
+
+
+
+## Amenaza 3 : redes Inalambricas 
+	explotacion de vulnerabilidades en la infrestuctura de red wifi . la naturalesa de transmision abierta de las ondas de radio  para interceptar paquetes de datos antes de acceso legitimo .
+	
+
+### Intercepcion de Datos (mitm)
+	Paso: el atacante configura un puntode acceso falso imitando la red coporativa .
+
+	paso 2 : El dispositivo de la victima se conecta automaticamente a la mas fuerte 
+	
+	paso 3: el trafico de la victima pasa primero con el equipo del atacante.
+	paso 4: Captura de contrasenas . correos y datos finsancieros en texto claro antes del enrutamiento.
+	

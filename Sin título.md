@@ -1,0 +1,9 @@
+
+**Contexto del Proyecto:**   
+Una plataforma de ventas necesita automatizar la clasificación de las reseñas de sus clientes para detectar rápidamente productos defectuosos o medir la satisfacción general, contribuyendo así a la toma de decisiones. Deben construir un modelo de minería de texto que lea la reseña y determine si la experiencia del usuario fue positiva o negativa.  
+**Requerimientos de Implementación (Código):****Adquisición de Datos:** Cargar un dataset de reseñas de internet (pueden buscar un link con reseñas de Amazon o el clásico dataset de IMDB). Deberán mapear las etiquetas (positive/negative) a variables numéricas (1 y 0).**Vectorización:** Implementar TfidfVectorizer filtrando stop words y separando los datos en entrenamiento y prueba con una buena estructura de código. **Algoritmo usado:** En lugar de replicar la Regresión Logística del ejercicio anterior, investigar e implementar un algoritmo distinto de la librería scikit-learn.**Evaluación:** Extraer la matriz de confusión y calcular explícitamente: Exactitud, precisión, recuperación, tasa de falsos positivos y Cálculo F1.  
+**Memoria Técnica y Justificación:** Añadan una celda de texto (Markdown) al final de su Colab donde presenten una propuesta de optimización respondiendo a lo siguiente:
+
+- **Justificación de la herramienta:** ¿Por qué seleccionaron ese algoritmo específico para atender la problemática?
+- **Interpretación de Errores:** ¿Qué impacto de negocio tiene un Falso Positivo en este contexto específico?
+- **Propuesta de Mejora:** Basado en las métricas obtenidas, ¿qué harían para optimizar la precisión del modelo en una segunda versión?
